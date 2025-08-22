@@ -1,73 +1,55 @@
-/* General Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Hariom Industries - A leading Groundnut Oil Manufacturer in Gujarat since 1999."/>
+  <title>Hariom Industries</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-/* Hero Section */
-.hero {
-    background: #FFD700; /* Golden color, reflecting groundnut oil */
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-    background-image: url('https://via.placeholder.com/1500x800'); /* Replace with real image */
-    background-size: cover;
-    background-position: center;
-}
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Hariom Industries</h1>
+      <p>A Leading Groundnut Oil Manufacturer in Gujarat Since 1999</p>
+      <a href="contact.html" class="cta-button">Contact Us</a>
+    </div>
+  </header>
 
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Hariom Industries has been a trusted name in manufacturing premium-quality groundnut oil in Gujarat since 1999.</p>
+  </section>
 
-.hero p {
-    font-size: 20px;
-    margin-bottom: 30px;
-}
+  <!-- Products -->
+  <section id="products" class="section">
+    <h2>Our Products</h2>
+    <p>We specialize in pure, natural groundnut oil, available in various packaging options.</p>
+  </section>
 
-.cta-button {
-    background-color: #007BFF;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
+  <!-- Why Choose Us -->
+  <section id="why-choose-us" class="section">
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>High-quality groundnut oil</li>
+      <li>Trusted since 1999</li>
+      <li>Made in Gujarat, India</li>
+      <li>Eco-friendly production</li>
+    </ul>
+  </section>
 
-.cta-button:hover {
-    background-color: #0056b3;
-}
-
-/* Section Styles */
-.section {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: #555;
-}
-
-/* Contact Section */
-#contact p {
-    margin: 5px 0;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Hariom Industries. All rights reserved.</p>
+  </footer>
+</body>
+</html>
